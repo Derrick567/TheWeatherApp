@@ -1,17 +1,13 @@
 package mdexample.derrick.com.theweatherapp.model;
 
-/**
- * Created by Derrick on 2016/10/20.
- */
-
 public class Clouds {
-    public int getPrecipitation() {
-        return precipitation;
+    private int all;
+
+    public void setAll(int all){
+        this.all = all;
+    }
+    public int getAll(){
+        return this.all;
     }
 
-    public void setPrecipitation(int precipitation) {
-        this.precipitation = precipitation;
-    }
-
-    private int precipitation;
 }

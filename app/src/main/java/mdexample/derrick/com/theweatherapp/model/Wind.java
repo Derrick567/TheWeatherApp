@@ -1,27 +1,20 @@
 package mdexample.derrick.com.theweatherapp.model;
-
-/**
- * Created by Derrick on 2016/10/20.
- */
-
 public class Wind {
-    private float speed;
-    private float deg;
-    public float getSpeed() {
-        return speed;
-    }
+    private double speed;
 
-    public void setSpeed(float speed) {
+    private double deg;
+
+    public void setSpeed(double speed){
         this.speed = speed;
     }
-
-    public float getDeg() {
-        return deg;
+    public double getSpeed(){
+        return this.speed;
     }
-
-    public void setDeg(float deg) {
+    public void setDeg(double deg){
         this.deg = deg;
     }
-
+    public double getDeg(){
+        return this.deg;
+    }
 
 }

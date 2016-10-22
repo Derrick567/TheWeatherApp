@@ -1,15 +1,37 @@
 package mdexample.derrick.com.theweatherapp.model;
 
-/**
- * Created by Derrick on 2016/10/20.
- */
-
 public class Weather {
-    public Place place;
-    public String iconData;
-    public CurrentCondition currentCondition = new CurrentCondition();
-    public Temperature temperature = new Temperature();
-    public Wind wind = new Wind();
-    public Snow snow =new Snow();
-    public Clouds clouds=new Clouds();
+    private int id;
+
+    private String main;
+
+    private String description;
+
+    private String icon;
+
+    public void setId(int id){
+        this.id = id;
+    }
+    public int getId(){
+        return this.id;
+    }
+    public void setMain(String main){
+        this.main = main;
+    }
+    public String getMain(){
+        return this.main;
+    }
+    public void setDescription(String description){
+        this.description = description;
+    }
+    public String getDescription(){
+        return this.description;
+    }
+    public void setIcon(String icon){
+        this.icon = icon;
+    }
+    public String getIcon(){
+        return this.icon;
+    }
+
 }
