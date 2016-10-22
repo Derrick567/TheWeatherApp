@@ -9,7 +9,9 @@ import org.json.JSONObject;
 
 public class Utils {
     public static final String API_KEY="8d363f3f6527595edd1909e68d287c5b";
-    public  static final String BASE_URL="http://api.openweathermap.org/data/2.5/weather?q=";
+    //public  static final String BASE_URL="http://api.openweathermap.org/data/2.5/weather?q=";
+    //http://api.openweathermap.org/data/2.5/weather?q=Taichung,TW&units=metric&appid=8d363f3f6527595edd1909e68d287c5b
+    public  static final String BASE_URL="http://api.openweathermap.org/";
     public  static final String ICON_URL="http://openweathermap.org/img/w/";
 
     public static JSONObject getObject(String tagName,JSONObject jsonObject) throws JSONException{
